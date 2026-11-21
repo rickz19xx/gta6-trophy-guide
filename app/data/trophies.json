@@ -2,391 +2,1861 @@
  "game": "Grand Theft Auto VI",
  "platform": "PlayStation 5",
  "list": "the official 55 trophies, 2026-11-18",
+ "updated": "2026-11-21",
+ "categories": {
+  "story": "Campaign missions and chapter flags - unmissable unless noted.",
+  "side": "Optional strands, errands and services that ask for a favour.",
+  "collectibles": "Fixed pickups you sweep off the map over a long session.",
+  "activities": "Repeatable jobs, races, robberies and stunts you start on demand.",
+  "combat": "Firefights, wanted-level scrapes and weapon feats.",
+  "exploration": "Map discovery, viewpoints and one-off world moments.",
+  "minigames": "Bars, arcades and table games played for their own sake.",
+  "online": "Mode-wide and partner feats tracked across your save."
+ },
  "trophies": [
   {
    "id": 1,
    "name": "Vice Got a Price!",
    "description": "Congratulations! You're a Leonida Legend.",
    "grade": "platinum",
-   "guide": "Earn the other 54 trophies."
+   "hidden": false,
+   "order": 55,
+   "category": "story",
+   "act": "Any time",
+   "region": "Vice City",
+   "landmark": "Vice Beach safehouse trophy wall",
+   "time": "60-80 h",
+   "difficulty": 4,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "The other 54 trophies"
+   ],
+   "collectibles": "",
+   "guide": "Earn the other 54 trophies.",
+   "overview": "The platinum is a pure checklist: every other trophy in the list, in any order. Two trophies are the long pole - 100% completion and the 250 stunts - so start chipping at those as soon as the map opens. Saving the story for last is fine, but it is not required and it locks nothing.",
+   "steps": [
+    "Finish the campaign first so the whole map and every contact are available.",
+    "Sweep collectibles and exploration while you still drive around for other reasons.",
+    "Clear the activity trophies - races, challenges, stunts - in batches per region.",
+    "Replay any missed story trophy through the mission replay menu.",
+    "Tick this guide off against your trophy list before starting the final cleanup pass."
+   ],
+   "tips": [
+    "Nothing is lost by finishing the story early; all free roam content stays available.",
+    "Use the in-game completion checklist to see exactly which activity is still unpaid."
+   ]
   },
   {
    "id": 2,
    "name": "Just Like Paradise",
    "description": "Complete Gone Fishing.",
    "grade": "bronze",
-   "guide": "Finish the opening mission, Gone Fishing."
+   "hidden": false,
+   "order": 1,
+   "category": "story",
+   "act": "Prologue",
+   "region": "Leonida Keys",
+   "landmark": "Sandy Key boat ramp",
+   "time": "15 min",
+   "difficulty": 1,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [],
+   "collectibles": "",
+   "guide": "Finish the opening mission, Gone Fishing.",
+   "overview": "Gone Fishing is the tutorial, so nothing in it can be failed permanently. Treat it as your introduction to the new boating, swimming and cover controls before the story opens up. The trophy fires the moment the mission-complete card appears.",
+   "steps": [
+    "Follow the on-screen prompts through the boat handling tutorial.",
+    "Land the story fish the mission asks for and let the dialogue play out.",
+    "Deal with the ambush at the dock without backing into open water.",
+    "Ride the boat back to the Keys safehouse and bank the mission.",
+    "Check the mission-complete card to confirm the trophy popped."
+   ],
+   "tips": [
+    "You cannot drown or fail to script here, so use the mission to practise swimming.",
+    "Open the map on the way home and note the icons you pass - they are your first side content."
+   ]
   },
   {
    "id": 3,
    "name": "Paradise Lost",
    "description": "Complete Chapter 1.",
    "grade": "bronze",
-   "guide": "Finish Chapter 1."
+   "hidden": false,
+   "order": 3,
+   "category": "story",
+   "act": "Chapter 1",
+   "region": "Vice City",
+   "landmark": "Vice Beach safehouse",
+   "time": "3 h",
+   "difficulty": 2,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Just Like Paradise",
+    "Trust"
+   ],
+   "collectibles": "",
+   "guide": "Finish Chapter 1.",
+   "overview": "Chapter 1 is the longest tutorial stretch in the game: a handful of missions that teach the wanted level, the cover economy and the first heist setup. Nothing here is optional, so play it and clean up around the beach afterwards. The chapter card at the end is what pays the trophy.",
+   "steps": [
+    "Play every white mission marker on the map until the chapter icon turns gold.",
+    "Use this chapter to trigger a wanted level and learn the new search cones.",
+    "Buy the cheapest weapon upgrade so later firefights are not a slog.",
+    "Replay any mission you failed before moving on - failed story missions block markers.",
+    "Let the autosave finish at the chapter card before quitting."
+   ],
+   "tips": [
+    "Chapter 1 hands out free weapons, so spend money on armour instead.",
+    "If a marker greys out, sleep in the safehouse bed to advance the clock."
+   ]
   },
   {
    "id": 4,
    "name": "T**s Ass Drug Money",
    "description": "Complete Chapter 2.",
    "grade": "bronze",
-   "guide": "Finish Chapter 2."
+   "hidden": false,
+   "order": 7,
+   "category": "story",
+   "act": "Chapter 2",
+   "region": "Vice City",
+   "landmark": "Starfish Island mansion",
+   "time": "4 h",
+   "difficulty": 2,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Family Matters",
+    "Hi-Jacked",
+    "Break the Bank"
+   ],
+   "collectibles": "",
+   "guide": "Finish Chapter 2.",
+   "overview": "Chapter 2 opens Vice City proper and unlocks the property and heist strands, so this is the chapter to start earning passive income. It is also where the game first asks you to pick between a loud and a quiet approach. Finish every marker, then use free roam to bank your first business.",
+   "steps": [
+    "Run down every story marker until the chapter progress bar is full.",
+    "Take the quiet approach at least once to unlock the silenced weapons.",
+    "Buy the cheapest business property and finish its setup mission.",
+    "Store a fast four-door in your garage for the longer chapter drives.",
+    "Let the chapter card play out and confirm the autosave icon."
+   ],
+   "tips": [
+    "Property takings accrue while you sleep in a safehouse bed.",
+    "Do not blow money on cars yet - armour and ammo carry you through Chapter 3."
+   ]
   },
   {
    "id": 5,
    "name": "Vice City, Baby!",
    "description": "Complete Chapter 3.",
    "grade": "bronze",
-   "guide": "Finish Chapter 3."
+   "hidden": false,
+   "order": 9,
+   "category": "story",
+   "act": "Chapter 3",
+   "region": "Vice City",
+   "landmark": "Downtown Vice City rooftop bar",
+   "time": "4 h",
+   "difficulty": 3,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "T**s Ass Drug Money",
+    "DWNFALL"
+   ],
+   "collectibles": "",
+   "guide": "Finish Chapter 3.",
+   "overview": "Chapter 3 is the mid-game spike: longer drives across the state and the first missions that fail you for a sloppy approach. One chapter mission sends you back to the very start of the drive if you lose the target, so refill armour before every marker. The chapter cleans up with a three-way firefight, so bring a rifle.",
+   "steps": [
+    "Stock full armour and a rifle before each Chapter 3 marker.",
+    "Bank your property income before the long Grassrivers drive.",
+    "Keep the escort target alive by shooting the cars that close on it.",
+    "Use cover on the rooftop finale instead of fighting in the open.",
+    "Wait for the chapter card and the gold star before moving on."
+   ],
+   "tips": [
+    "Chapter 3 introduces armoured enemies - aim for the legs below the vest.",
+    "If a mission restarts you far back, quit to dashboard rather than playing on."
+   ]
   },
   {
    "id": 6,
    "name": "Top Of The World, Ma",
    "description": "Complete Chapter 4.",
    "grade": "bronze",
-   "guide": "Finish Chapter 4."
+   "hidden": false,
+   "order": 11,
+   "category": "story",
+   "act": "Chapter 4",
+   "region": "Mount Kalaga",
+   "landmark": "Mount Kalaga radio tower",
+   "time": "4 h",
+   "difficulty": 3,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Vice City, Baby!",
+    "Snow Storm"
+   ],
+   "collectibles": "",
+   "guide": "Finish Chapter 4.",
+   "overview": "Chapter 4 pushes you out of Vice City and up into Kalaga, where the mountain roads and the helicopter sections both punish impatience. It is the last chapter before the finale, so sell nothing and keep a stock of armour. The chapter trophy lands with the gold star on the map.",
+   "steps": [
+    "Take the Kalaga road missions with a fast car and good brakes.",
+    "Complete the helicopter section without clipping the ridgeline - climb first, then turn.",
+    "Clear the chapter side errands that pay weapon unlocks before the finale.",
+    "Top up armour and sniper ammo at the mountain safehouse.",
+    "Watch the chapter card and let the autosave finish."
+   ],
+   "tips": [
+    "The mountain passes ice over at night; drive them in daylight if you can.",
+    "Sniper ammo is scarce here, so buy the maximum before the last two missions."
+   ]
   },
   {
    "id": 7,
    "name": "You Gotta Know When to Get Off",
    "description": "Complete the final mission.",
    "grade": "gold",
-   "guide": "Finish the final mission (gold)."
+   "hidden": false,
+   "order": 12,
+   "category": "story",
+   "act": "Chapter 4",
+   "region": "Vice City",
+   "landmark": "Downtown Vice City bank tower",
+   "time": "45 min",
+   "difficulty": 4,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Top Of The World, Ma"
+   ],
+   "collectibles": "",
+   "guide": "Finish the final mission (gold).",
+   "overview": "The finale is a three-stage set piece: a lobby shootout, a stairwell pursuit and a rooftop escape. Treat each stage as its own mission and reload from the checkpoint rather than pushing through with low health. The gold trophy and the epilogue both land once you clear the roof.",
+   "steps": [
+    "Clear the bank lobby from behind the teller counters before pushing to the stairs.",
+    "Take the stairwell slowly and pre-aim each landing as you climb.",
+    "Use the mid-mission armour pickup rather than saving it for the roof.",
+    "On the roof, kill the shooter behind the helipad light before sprinting for the ladder.",
+    "Finish the escape and let the epilogue cutscene play out fully."
+   ],
+   "tips": [
+    "Checkpoints are generous - dying is cheaper than fighting on at 10% health.",
+    "Bring the combat shotgun; the stairwell fights are all close range."
+   ]
   },
   {
    "id": 8,
    "name": "Trust",
    "description": "Complete Breakfast Run.",
    "grade": "bronze",
-   "guide": "Finish the mission Breakfast Run."
+   "hidden": false,
+   "order": 2,
+   "category": "story",
+   "act": "Chapter 1",
+   "region": "Port Gellhorn",
+   "landmark": "Wheatfield Diner, Port Gellhorn Road",
+   "time": "20 min",
+   "difficulty": 2,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Just Like Paradise"
+   ],
+   "collectibles": "",
+   "guide": "Finish the mission Breakfast Run.",
+   "overview": "Breakfast Run is an early escort that punishes you for driving fast. The car you are following will not slow down, but the chasing pack spawns behind you every time you stop. Stay glued to the bumper and use the handbrake for the alley cuts.",
+   "steps": [
+    "Take the offered car and pull in behind the escort before the timer starts.",
+    "Hold one car length of gap on straights so you can brake into corners.",
+    "Use the handbrake for the two alley cuts near the diner.",
+    "Ram the chasing sedan off the road once it closes on the passenger side.",
+    "Park up beside the diner to close the mission."
+   ],
+   "tips": [
+    "Do not overtake the escort - the route is scripted and you will get boxed in.",
+    "A dented car is fine, so trade paint instead of braking for traffic."
+   ]
   },
   {
    "id": 9,
    "name": "Break the Bank",
    "description": "Complete The Cartel Heist.",
    "grade": "bronze",
-   "guide": "Finish the mission The Cartel Heist."
+   "hidden": false,
+   "order": 6,
+   "category": "story",
+   "act": "Chapter 2",
+   "region": "Vice City",
+   "landmark": "Little Havana container docks",
+   "time": "30 min",
+   "difficulty": 3,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Hi-Jacked"
+   ],
+   "collectibles": "",
+   "guide": "Finish the mission The Cartel Heist.",
+   "overview": "The Cartel Heist gives you a crew to pick and pays out on how much loot you carry out, not how fast you leave. Take the driver and the hacker so the alarm window stays long. The vault drill is a two-minute stand-and-defend, so place your crew on the doors before it starts.",
+   "steps": [
+    "Pick the hacker first - it buys you an extra minute before the alarms trip.",
+    "Park the getaway car nose-out in the loading bay before entering.",
+    "Place both crew members on the double doors before starting the drill.",
+    "Grab the secondary cash crates on the way out; they add to the payout but cost time.",
+    "Drive straight to the dockside spray shop rather than fighting the cops."
+   ],
+   "tips": [
+    "Shotgun the first wave in the doorway - the corridor funnels them for you.",
+    "If the drill overheats, back off the trigger instead of forcing it."
+   ]
   },
   {
    "id": 10,
    "name": "Family Matters",
    "description": "Complete Child's Play.",
    "grade": "bronze",
-   "guide": "Finish the mission Child's Play."
+   "hidden": false,
+   "order": 4,
+   "category": "story",
+   "act": "Chapter 2",
+   "region": "Vice City",
+   "landmark": "Ocean Beach amusement pier",
+   "time": "25 min",
+   "difficulty": 2,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Paradise Lost"
+   ],
+   "collectibles": "",
+   "guide": "Finish the mission Child's Play.",
+   "overview": "Child's Play mixes a rooftop approach with a running gunfight down the pier, and the second half is where most players get swarmed. Bring a rifle with decent range and clear the ferris wheel platform before you drop to the boardwalk. The escape car spawns north of the pier gates.",
+   "steps": [
+    "Approach the pier on foot from the north ramp instead of driving onto the boardwalk.",
+    "Clear the ferris wheel platform first so the drop-down is not a crossfire.",
+    "Push along the boardwalk using the game booths as hard cover.",
+    "Loot the armour crate behind the arcade entrance before the final push.",
+    "Grab the escape car north of the gate and lose the one-star search."
+   ],
+   "tips": [
+    "Headshots on the pier guards drop them before they radio you in.",
+    "If the alarm trips, leave through the side gate rather than the main stairs."
+   ]
   },
   {
    "id": 11,
    "name": "DWNFALL",
    "description": "Complete Headliners.",
    "grade": "bronze",
-   "guide": "Finish the mission Headliners."
+   "hidden": false,
+   "order": 8,
+   "category": "story",
+   "act": "Chapter 3",
+   "region": "Vice City",
+   "landmark": "Vice Beach amphitheatre",
+   "time": "30 min",
+   "difficulty": 3,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "T**s Ass Drug Money"
+   ],
+   "collectibles": "",
+   "guide": "Finish the mission Headliners.",
+   "overview": "Headliners is a two-part job: a quiet approach through the amphitheatre backstage, then a loud exit through the crowd barriers. The guards on the gantry radio in if they see you, so take them out from the catwalk above. Bring a silenced pistol if you bought one in Chapter 2.",
+   "steps": [
+    "Enter backstage through the loading doors on the west side.",
+    "Climb the catwalk and drop the two gantry guards with silenced headshots.",
+    "Grab the case from the dressing room and skip the optional safes on a first run.",
+    "Blow the stage pyros on the way out to panic the crowd and clear your path.",
+    "Reach the van in the car park before the two-star search tightens."
+   ],
+   "tips": [
+    "The lighting rig collapses if you shoot it - free cover on the exit run.",
+    "Save the pyros for the exit; using them early wastes the distraction."
+   ]
   },
   {
    "id": 12,
    "name": "Hi-Jacked",
    "description": "Complete VCIA Takedown.",
    "grade": "bronze",
-   "guide": "Finish the mission VCIA Takedown."
+   "hidden": false,
+   "order": 5,
+   "category": "story",
+   "act": "Chapter 2",
+   "region": "Vice City",
+   "landmark": "Vice City International Airport (VCIA)",
+   "time": "25 min",
+   "difficulty": 3,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Family Matters"
+   ],
+   "collectibles": "",
+   "guide": "Finish the mission VCIA Takedown.",
+   "overview": "VCIA Takedown puts you on the runway apron with a vehicle you have to steal and keep intact. Runway traffic is real, so do not weave across the taxiways while the plane lands. The escape route takes you through the cargo gate on the south side, which is faster than the terminal road.",
+   "steps": [
+    "Drive in through the staff gate on the north perimeter to skip the terminal.",
+    "Wait for the landing aircraft to clear the taxiway before crossing.",
+    "Take the target car and reverse out - the fence behind it will not hold.",
+    "Use the service road along the cargo apron to dodge the roadblocks.",
+    "Lose the search in the sewer tunnel under the south gate."
+   ],
+   "tips": [
+    "Airport patrols escalate fast; do not stop to fight after the alarm.",
+    "The control tower guards drop a rifle - worth grabbing on the way past."
+   ]
   },
   {
    "id": 13,
    "name": "Snow Storm",
    "description": "Complete Operation Savage Glory.",
    "grade": "bronze",
-   "guide": "Finish the mission Operation Savage Glory."
+   "hidden": false,
+   "order": 10,
+   "category": "story",
+   "act": "Chapter 4",
+   "region": "Mount Kalaga",
+   "landmark": "Savage Glory ski lodge",
+   "time": "35 min",
+   "difficulty": 4,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Vice City, Baby!"
+   ],
+   "collectibles": "",
+   "guide": "Finish the mission Operation Savage Glory.",
+   "overview": "Operation Savage Glory is the hardest mission before the finale: a snowbound assault followed by a downhill pursuit with no checkpoint in between. Clear the lodge courtyard before you touch the objective, and take the snowplough rather than a sports car for the chase. Heat vision does not work in the blizzard, so rely on the minimap.",
+   "steps": [
+    "Snipe the lodge guards from the ridge before walking down to the gate.",
+    "Clear the courtyard with a shotgun, using the parked ploughs as cover.",
+    "Take the snowplough for the descent - its weight holds the switchbacks.",
+    "During the whiteout, follow the tyre tracks rather than the minimap arrow.",
+    "Block the road with the plough to stop the target car, then finish on foot."
+   ],
+   "tips": [
+    "Thermal scopes are useless in the blizzard; bring a rifle with a red dot instead.",
+    "Do not sprint downhill - falling leaves you taking damage with no cover."
+   ]
   },
   {
    "id": 14,
    "name": "A Long Road",
    "description": "Attain 100% Completion.",
    "grade": "gold",
-   "guide": "Reach 100% completion (gold)."
+   "hidden": false,
+   "order": 54,
+   "category": "story",
+   "act": "Epilogue",
+   "region": "Vice City",
+   "landmark": "Completion checklist in the phone app",
+   "time": "50 h",
+   "difficulty": 5,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Final mission complete",
+    "All side strands available"
+   ],
+   "collectibles": "All state collectible sets",
+   "guide": "Reach 100% completion (gold).",
+   "overview": "100% is a long haul built from activities, collectibles and side strands rather than story missions, and the phone app lists every requirement. Work region by region instead of chasing icons across the whole state, which keeps the travel time down. The last few percent are almost always the collectible sets and the challenge medals, so track them from the start.",
+   "steps": [
+    "Finish the story so every strand, race and challenge is unlocked.",
+    "Open the completion app and note which requirements are still greyed out.",
+    "Clear one region at a time - Grassrivers, Keys, Port Gellhorn, Vice City, Kalaga.",
+    "Mop up collectible sets and challenge golds last, using the same region order.",
+    "Check the app after each session; it updates the moment a requirement is met."
+   ],
+   "tips": [
+    "Stranger missions and races count, random encounters mostly do not.",
+    "100% needs every challenge type, so do not skip the flying and shooting ranges."
+   ]
   },
   {
    "id": 15,
    "name": "Cunning Stunts",
    "description": "Complete 250 Stunts.",
    "grade": "silver",
-   "guide": "Pull off 250 stunts (silver)."
+   "hidden": false,
+   "order": 49,
+   "category": "activities",
+   "act": "Any time",
+   "region": "Mount Kalaga",
+   "landmark": "Kalaga switchback jump series",
+   "time": "2 h",
+   "difficulty": 3,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Chapter 2 complete",
+    "A fast bike in the garage"
+   ],
+   "collectibles": "",
+   "guide": "Pull off 250 stunts (silver).",
+   "overview": "Stunts count as anything the game logs in the stunt feed: big air, wheelies, long drifts, near misses and stoppies. Rolling jumps on the Kalaga switchbacks and the Keys causeway give the most progress per run. Do it in laps of a favourite stretch instead of hunting new spots each time.",
+   "steps": [
+    "Pick a stretch with ramps close together - the Kalaga switchbacks work well.",
+    "Ride a fast bike for wheelies and stoppies between the jumps.",
+    "Chain stunts without crashing; the counter only banks when you keep the run alive.",
+    "Top up with drifts and near misses on the Vice City beachfront to fill gaps.",
+    "Check the stunt feed in the phone app to see which type is lagging."
+   ],
+   "tips": [
+    "Switching between bike and car keeps the feed varied and stops you getting bored.",
+    "Rainy roads make drifting stunts far easier - knock them out in a storm."
+   ]
   },
   {
    "id": 16,
    "name": "Master of None",
    "description": "Try each type of activity once.",
    "grade": "bronze",
-   "guide": "Try all 9 activity types once."
+   "hidden": false,
+   "order": 22,
+   "category": "activities",
+   "act": "Any time",
+   "region": "Port Gellhorn",
+   "landmark": "Gellhorn fairground activity board",
+   "time": "1 h",
+   "difficulty": 1,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Chapter 2 complete"
+   ],
+   "collectibles": "",
+   "guide": "Try all 9 activity types once.",
+   "overview": "This one only asks you to start each of the nine activity types, not to win them. The fairground board in Port Gellhorn lists most of them, and the rest are pinned around Vice City. Expect an hour if you fast travel between hubs instead of driving the coast.",
+   "steps": [
+    "Open the activity list in the phone app to see the nine types.",
+    "Start each type once - a failure or a quit still counts as a try.",
+    "Use taxis and the metro to move between hubs rather than driving.",
+    "Do the timed types last so you are not stuck waiting on cooldowns.",
+    "Check the activity list ticks each type off as you finish it."
+   ],
+   "tips": [
+    "You do not need a medal, so quitting at the start menu still counts.",
+    "Some types only appear at night - sleep in a safehouse to skip the wait."
+   ]
   },
   {
    "id": 17,
    "name": "The Shootist",
    "description": "Earn a gold medal in all Shooting Range challenges.",
    "grade": "silver",
-   "guide": "Gold all 42 Shooting Range challenges (silver)."
+   "hidden": false,
+   "order": 23,
+   "category": "activities",
+   "act": "Any time",
+   "region": "Grassrivers",
+   "landmark": "Trailer park shooting range",
+   "time": "1 h",
+   "difficulty": 3,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Chapter 3 complete",
+    "Rifle and pistol with extended mags"
+   ],
+   "collectibles": "",
+   "guide": "Gold all 42 Shooting Range challenges (silver).",
+   "overview": "There are 42 ranges across the state and gold is stricter than it looks: you need clean runs, not just fast ones. Buy the extended magazines first because reload time is the difference between gold and silver on the timed events. Practise the moving-target types in Grassrivers before you travel.",
+   "steps": [
+    "Buy extended magazines for the pistol, rifle and shotgun before starting.",
+    "Clear the Grassrivers range first to learn the timing patterns.",
+    "Restart the instant you miss a shot instead of playing the round out.",
+    "Save the long-range sniper events for last, when your aim is warm.",
+    "Track each range on the map so you can see which 42 are done."
+   ],
+   "tips": [
+    "Headshots score more than two body shots on nearly every event.",
+    "Turn aim assist to free aim - assisted shots can miss the small targets."
+   ]
   },
   {
    "id": 18,
    "name": "Top Fun",
    "description": "Win a Top Fun Drone Race at every location.",
    "grade": "bronze",
-   "guide": "Win a Top Fun drone race at all 14 locations."
+   "hidden": false,
+   "order": 24,
+   "category": "activities",
+   "act": "Any time",
+   "region": "Vice City",
+   "landmark": "Top Fun rooftop pads, Downtown Vice City",
+   "time": "2 h",
+   "difficulty": 3,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Chapter 2 complete"
+   ],
+   "collectibles": "",
+   "guide": "Win a Top Fun drone race at all 14 locations.",
+   "overview": "Drone races are all about throttle discipline: the drone stalls if you hold the boost through a corner. The Vice City rooftop course is the easiest win, so learn the controls there before travelling. Each of the 14 pads marks itself on the map once you have raced it.",
+   "steps": [
+    "Win the Downtown rooftop course once to learn the boost cooldown.",
+    "Fly the racing line first, then add boost only on the straights.",
+    "Use the map filter to find the 14 drone pads you have not beaten.",
+    "Race each pad on a fresh session - drone handling gets twitchy after an hour.",
+    "Re-run any course you lost by a second, using a shorter line through the checkpoints."
+   ],
+   "tips": [
+    "Cutting checkpoints too wide voids the lap, so keep the drone centred.",
+    "Switch to first person for tight rooftop gaps; it makes the clearance obvious."
+   ]
   },
   {
    "id": 19,
    "name": "Earn Cash, Not Kudos",
    "description": "Win 20 different races.",
    "grade": "bronze",
-   "guide": "Win 20 different races."
+   "hidden": false,
+   "order": 25,
+   "category": "activities",
+   "act": "Any time",
+   "region": "Grassrivers",
+   "landmark": "Airboat race start, Grassrivers canals",
+   "time": "2 h",
+   "difficulty": 3,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Chapter 2 complete"
+   ],
+   "collectibles": "",
+   "guide": "Win 20 different races.",
+   "overview": "Twenty different races means twenty unique circuits - repeating one does not count. The Grassrivers airboat and swamp buggy races are the least contested, so they are the quickest wins. Races you have already won are ticked on the map, which makes tracking easy.",
+   "steps": [
+    "Win the two Grassrivers water races first - the AI is weakest there.",
+    "Clear the Vice City street circuits with a fully upgraded sports car.",
+    "Use the map filter to hide races you have already won.",
+    "Take the off-road and bike events last, after you have upgraded those classes.",
+    "Re-check the map filter; the count only counts unique circuits."
+   ],
+   "tips": [
+    "Catch-up is on in story races, so a slow start is fine if you drive clean.",
+    "Slipstream behind the leader on the straights instead of fighting for the corner."
+   ]
   },
   {
    "id": 20,
    "name": "Baited My Tackle",
    "description": "Beat Cal in a fishing challenge.",
    "grade": "bronze",
-   "guide": "Beat Cal in a fishing challenge."
+   "hidden": false,
+   "order": 19,
+   "category": "activities",
+   "act": "Any time",
+   "region": "Leonida Keys",
+   "landmark": "Cal's fishing pier, Sandy Key",
+   "time": "20 min",
+   "difficulty": 2,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Trust",
+    "A rod from the Keys tackle shop"
+   ],
+   "collectibles": "",
+   "guide": "Beat Cal in a fishing challenge.",
+   "overview": "Cal fishes the Sandy Key pier and scores steadily rather than in bursts, so you need a couple of big catches to beat him. Buy the heavier line and a bait box before the challenge. Cast into the deep channel past the third pylon where the trophy fish hold.",
+   "steps": [
+    "Buy a better rod, heavier line and bait from the tackle shop.",
+    "Start the challenge at the pier and cast past the third pylon.",
+    "Reel in short pulls - fighting too long snaps the line on the big fish.",
+    "Ignore the small catches once you have two decent fish banked.",
+    "Finish with a heavier total than Cal to trigger the trophy."
+   ],
+   "tips": [
+    "Early morning gives the best bite rate, so sleep first if you are struggling.",
+    "If a fish spits the hook twice, recast rather than burning time waiting."
+   ]
   },
   {
    "id": 21,
    "name": "Stick Fiddler",
    "description": "Complete an arcade game.",
    "grade": "bronze",
-   "guide": "Finish one arcade game."
+   "hidden": false,
+   "order": 21,
+   "category": "minigames",
+   "act": "Any time",
+   "region": "Vice City",
+   "landmark": "Ocean Beach boardwalk arcade",
+   "time": "1 h",
+   "difficulty": 3,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Chapter 1 complete"
+   ],
+   "collectibles": "",
+   "guide": "Finish one arcade game.",
+   "overview": "Each arcade cabinet is a full mini game with its own ending, and the trophy only needs one of them beaten. The Ocean Beach boardwalk cabinets are the short ones, with clear final levels you can reach in about half an hour. Pick the side-scrolling beat-em-up rather than the endless shooters.",
+   "steps": [
+    "Head to the Ocean Beach boardwalk arcade and check every cabinet's title screen.",
+    "Pick the beat-em-up with a listed stage count - it has a real ending.",
+    "Learn the pattern of the first boss before spending your continue.",
+    "Save your special moves for the final stage rush.",
+    "Watch the ending screen through to the credits for the trophy."
+   ],
+   "tips": [
+    "Lives are unlimited on the story cabinets, so losing is only a time cost.",
+    "Pausing mid-game keeps your progress; quitting to the menu does not."
+   ]
   },
   {
    "id": 22,
    "name": "Road to Rehabilitation",
    "description": "Complete the final mission for Andy.",
    "grade": "bronze",
-   "guide": "Finish Andy's last mission."
+   "hidden": false,
+   "order": 13,
+   "category": "side",
+   "act": "Epilogue",
+   "region": "Port Gellhorn",
+   "landmark": "Andy's rehab clinic, Port Gellhorn outskirts",
+   "time": "30 min",
+   "difficulty": 2,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Final mission complete"
+   ],
+   "collectibles": "",
+   "guide": "Finish Andy's last mission.",
+   "overview": "Andy's strand opens after the story and is the gentlest of the post-game side missions, but it does gate the others behind its own short chain. Finish all three of his errands before the last one to get the trophy on the final mission. His clinic is easy to miss - it sits off the county road behind the petrol station.",
+   "steps": [
+    "Call Andy back after the epilogue to start the strand.",
+    "Complete his two earlier errands before attempting the last one.",
+    "Drive carefully on the escort section; his vehicle is not replaceable.",
+    "Finish the last mission without letting the clinic guard sound the alarm.",
+    "Wait for the strand-complete banner to confirm the trophy."
+   ],
+   "tips": [
+    "You can fail an errand and retry it from the clinic without losing progress.",
+    "Do Andy's chain first - it unlocks two other strands indirectly."
+   ]
   },
   {
    "id": 23,
    "name": "This Was No Boat Accident",
    "description": "Complete the final mission for Kenton.",
    "grade": "bronze",
-   "guide": "Finish Kenton's last mission."
+   "hidden": false,
+   "order": 14,
+   "category": "side",
+   "act": "Epilogue",
+   "region": "Leonida Keys",
+   "landmark": "Kenton's marina, Pelican Cay",
+   "time": "30 min",
+   "difficulty": 2,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Final mission complete",
+    "Andy's strand finished"
+   ],
+   "collectibles": "",
+   "guide": "Finish Kenton's last mission.",
+   "overview": "Kenton's strand is set on the water and ends with a chase through the mangroves. Bring a boat you can reverse out of tight channels, and stay off the sandbars. The final mission is the only one of his that can fail on a timer, so do it in daylight.",
+   "steps": [
+    "Meet Kenton at the Pelican Cay marina after finishing Andy's strand.",
+    "Do his two salvage errands to unlock the final mission.",
+    "Take a shallow-draft boat so the mangrove channels are passable.",
+    "Keep the target in sight during the chase but do not ram it.",
+    "Board the target vessel to close the strand and bank the trophy."
+   ],
+   "tips": [
+    "Trim the throttle in the mangroves; grounding costs you the chase.",
+    "If the target escapes, restarting the mission resets the timer cleanly."
+   ]
   },
   {
    "id": 24,
    "name": "The Lone Rider",
    "description": "Complete the final mission for Billy.",
    "grade": "bronze",
-   "guide": "Finish Billy's last mission."
+   "hidden": false,
+   "order": 15,
+   "category": "side",
+   "act": "Epilogue",
+   "region": "Grassrivers",
+   "landmark": "Billy's ranch, Grassrivers backroads",
+   "time": "30 min",
+   "difficulty": 3,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Final mission complete",
+    "Andy's strand finished"
+   ],
+   "collectibles": "",
+   "guide": "Finish Billy's last mission.",
+   "overview": "Billy's strand is a series of bike runs across the swamp flats and it is the most punishing of the three post-game chains. His final mission is a straight race against a rival rider, so upgrade a dirt bike first. Shortcuts through the cane fields void the route, so stay on the marked track.",
+   "steps": [
+    "Start the strand at Billy's ranch after finishing Andy's missions.",
+    "Complete his two delivery runs to unlock the race.",
+    "Upgrade a dirt bike with off-road tyres before the final mission.",
+    "Stay on the marked track - cutting through fields voids the run.",
+    "Beat the rival rider to the ranch gate to finish the strand."
+   ],
+   "tips": [
+    "The race restarts at the start line, so a crash costs you the whole run.",
+    "Ride in first person over the ruts; it is easier to keep the front wheel down."
+   ]
   },
   {
    "id": 25,
    "name": "Strangers & Freaks",
    "description": "Complete 8 mission strands for strangers across the state of Leonida.",
    "grade": "silver",
-   "guide": "Finish 8 stranger strands (silver)."
+   "hidden": false,
+   "order": 18,
+   "category": "side",
+   "act": "Any time",
+   "region": "Ambrosia",
+   "landmark": "Ambrosia county noticeboard",
+   "time": "4 h",
+   "difficulty": 3,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Final mission complete",
+    "Andy, Kenton and Billy strands finished"
+   ],
+   "collectibles": "",
+   "guide": "Finish 8 stranger strands (silver).",
+   "overview": "Stranger strands are the multi-mission chains that start from a question mark on the map, and there are more than eight of them so you have slack. Each strand is two to four missions, and the letter-marked ones are the longest. Finish the short chains first to bank the count quickly.",
+   "steps": [
+    "Unlock strangers by finishing the story and the three named side strands.",
+    "Use the map filter to show question marks you have not met yet.",
+    "Finish the shortest two-mission chains first to build the count.",
+    "Keep a note of which strands are incomplete; the game does not list them.",
+    "Finish the eighth chain and wait for the banner to confirm the trophy."
+   ],
+   "tips": [
+    "Some strangers only appear at certain times of day, so sleep and return.",
+    "You need eight, not all of them, so skip any chain you find tedious."
+   ]
   },
   {
    "id": 26,
    "name": "Supply & Demand",
    "description": "Complete the final mission for Randy.",
    "grade": "bronze",
-   "guide": "Finish Randy's last mission."
+   "hidden": false,
+   "order": 16,
+   "category": "side",
+   "act": "Epilogue",
+   "region": "Port Gellhorn",
+   "landmark": "Randy's warehouse, Gellhorn industrial estate",
+   "time": "30 min",
+   "difficulty": 3,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Final mission complete",
+    "Andy's strand finished"
+   ],
+   "collectibles": "",
+   "guide": "Finish Randy's last mission.",
+   "overview": "Randy's strand is a supply line that ends in a warehouse defence, which is the only mission in the chain that can be lost by damage rather than by death. Park vehicles across the loading bays before it starts. His earlier errands are simple deliveries and can be done in one sitting.",
+   "steps": [
+    "Start the strand at the Gellhorn industrial estate after finishing Andy's.",
+    "Run both delivery errands to unlock the warehouse mission.",
+    "Block the two loading bays with trucks before the defence starts.",
+    "Fight from the mezzanine so you can see both entrances at once.",
+    "Hold out until the timer expires and the strand banner appears."
+   ],
+   "tips": [
+    "Ammo crates respawn on the mezzanine, so use the rifle freely.",
+    "If the crates are being damaged, stand in front of them - the enemy aims for you first."
+   ]
   },
   {
    "id": 27,
    "name": "Spin On This!",
    "description": "Complete the final mission for Tyrone.",
    "grade": "bronze",
-   "guide": "Finish Tyrone's last mission."
+   "hidden": false,
+   "order": 17,
+   "category": "side",
+   "act": "Epilogue",
+   "region": "Vice City",
+   "landmark": "Tyrone's car wash, Little Havana",
+   "time": "30 min",
+   "difficulty": 3,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Final mission complete",
+    "Andy's strand finished"
+   ],
+   "collectibles": "",
+   "guide": "Finish Tyrone's last mission.",
+   "overview": "Tyrone's strand is about moving cars rather than keeping them, and his final mission is a timed delivery through traffic. Take the route along the beachfront rather than the freeway, which is shorter but always gridlocked. Bring a car with strong brakes for the Little Havana blocks.",
+   "steps": [
+    "Meet Tyrone at the Little Havana car wash after Andy's strand.",
+    "Complete his two pickup errands before the final delivery.",
+    "Plan the delivery route along the beachfront, not the freeway.",
+    "Do not stop for other traffic - the timer keeps running when you do.",
+    "Deliver the car intact to end the strand and bank the trophy."
+   ],
+   "tips": [
+    "Cosmetic damage is fine; losing a wheel is not, so avoid kerbs.",
+    "A second attempt is easier because traffic patterns are identical."
+   ]
   },
   {
    "id": 28,
    "name": "Positive Mental Attitude",
    "description": "Meditate at every spot across Leonida.",
    "grade": "bronze",
-   "guide": "Meditate at all 18 spots."
+   "hidden": false,
+   "order": 43,
+   "category": "collectibles",
+   "act": "Any time",
+   "region": "Mount Kalaga",
+   "landmark": "Kalaga summit meditation spot",
+   "time": "1 h",
+   "difficulty": 1,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Chapter 2 complete"
+   ],
+   "collectibles": "18/18 meditation spots",
+   "guide": "Meditate at all 18 spots.",
+   "overview": "Meditation spots are marked on the map but only after you have driven close to them, so you cannot plan the route from the start. Each one takes ten seconds of holding a single button and they count whether or not you finish the animation. The Kalaga summit spot is the only one that needs a hike, so leave it until you climb there anyway.",
+   "steps": [
+    "Open the map filter and highlight the meditation icon.",
+    "Drive the coast and the Keys first; those eight are roadside.",
+    "Sit at each spot for the full animation so the tick registers.",
+    "Walk the Kalaga summit trail for the last roadside-free spot.",
+    "Check the collectibles menu until it reads 18 of 18."
+   ],
+   "tips": [
+    "You can meditate while wanted, but police will interrupt the animation.",
+    "Some spots are inside nature reserves and only open in daylight."
+   ]
   },
   {
    "id": 29,
    "name": "Fair Game",
    "description": "Hunt a unique animal for Bret.",
    "grade": "bronze",
-   "guide": "Hunt the unique animal for Bret."
+   "hidden": false,
+   "order": 26,
+   "category": "side",
+   "act": "Any time",
+   "region": "Grassrivers",
+   "landmark": "Bret's hunting camp, Grassrivers marsh",
+   "time": "30 min",
+   "difficulty": 2,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Chapter 3 complete"
+   ],
+   "collectibles": "",
+   "guide": "Hunt the unique animal for Bret.",
+   "overview": "Bret sends you after a single named animal in the Grassrivers marsh, and the trophy fires on the kill shot rather than on the hand-in. Track it with the hunting view and shoot for a clean vital hit; body shots just make it run. Do it at dusk when the animal comes to the water's edge.",
+   "steps": [
+    "Meet Bret at his camp to start the hunt.",
+    "Pick up the hunting rifle and scent cover from the crate.",
+    "Follow the tracks south to the water's edge, staying downwind.",
+    "Use the hunting view to line up a vital shot before it bolts.",
+    "Hand the carcass to Bret to finish the hunt and bank the trophy."
+   ],
+   "tips": [
+    "One clean vital hit is faster than a long chase, so be patient.",
+    "Fast travel away and back if the animal does not spawn after five minutes."
+   ]
   },
   {
    "id": 30,
    "name": "Don't Touch My Deck",
    "description": "Complete 3 Collectible Card sets.",
    "grade": "silver",
-   "guide": "Complete 3 collectible card sets (silver)."
+   "hidden": false,
+   "order": 44,
+   "category": "collectibles",
+   "act": "Any time",
+   "region": "Vice City",
+   "landmark": "Vice Beach trading card shop",
+   "time": "3 h",
+   "difficulty": 2,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Chapter 2 complete"
+   ],
+   "collectibles": "3/3 card sets",
+   "guide": "Complete 3 collectible card sets (silver).",
+   "overview": "Cards come from shop counters, arcade prize counters and a few quest rewards, and they organise themselves into sets by series. Three complete sets is a long shopping trip rather than a treasure hunt, so buy from every counter you pass. Duplicates are common early, so trade them at the shop for missing cards.",
+   "steps": [
+    "Open the card binder in the phone app to see which series are closest to complete.",
+    "Buy every pack you can at the Vice Beach card shop to fill the gaps.",
+    "Visit the arcade and fairground prize counters for the exclusive cards.",
+    "Trade duplicates at the shop rather than hoarding them.",
+    "Complete the third set and wait for the trophy banner."
+   ],
+   "tips": [
+    "Two of the sets only need twelve cards each, so target those first.",
+    "Shop stock refreshes every in-game day - sleep to reroll it."
+   ]
   },
   {
    "id": 31,
    "name": "You WAiNKer!",
    "description": "WAiNK It at 100 locations.",
    "grade": "silver",
-   "guide": "WAiNK It at 100 locations (silver)."
+   "hidden": false,
+   "order": 45,
+   "category": "collectibles",
+   "act": "Any time",
+   "region": "Vice City",
+   "landmark": "WAiNK camera pitch, Vice Beach boulevard",
+   "time": "2 h",
+   "difficulty": 2,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Chapter 2 complete",
+    "Phone camera unlocked"
+   ],
+   "collectibles": "100/100 WAiNK locations",
+   "guide": "WAiNK It at 100 locations (silver).",
+   "overview": "WAiNK It is the in-game short video app, and each marked location wants a clip of something specific like a stunt, a landmark or a passing plane. The pitch markers only appear on the map inside a few blocks, so drive the district with the app open. Hundred locations is a long haul, so bank them in batches while doing other collectibles.",
+   "steps": [
+    "Open the WAiNK app to see which clip types are being requested.",
+    "Filter the map for WAiNK pitches, then work one district at a time.",
+    "Film the requested subject and post the clip - a low score still counts.",
+    "Stack pitches with nearby collectibles so a single drive banks several.",
+    "Track the counter in the app until it reads 100."
+   ],
+   "tips": [
+    "Clips record for ten seconds only, so start filming before the action begins.",
+    "Requests rotate; ignoring a pitch and returning later can give a tougher brief."
+   ]
   },
   {
    "id": 32,
    "name": "One Last Thing",
    "description": "Complete 50 Challenges.",
    "grade": "bronze",
-   "guide": "Finish 50 challenges."
+   "hidden": false,
+   "order": 48,
+   "category": "side",
+   "act": "Any time",
+   "region": "Port Gellhorn",
+   "landmark": "Challenge board, Gellhorn pier",
+   "time": "3 h",
+   "difficulty": 3,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Chapter 3 complete",
+    "All challenge types unlocked"
+   ],
+   "collectibles": "",
+   "guide": "Finish 50 challenges.",
+   "overview": "Challenges are the one-off scored events scattered around the map: shooting ranges, time trials, stunt jumps and the hunting and flying trials. Fifty of them is achievable but only if you take the easy tiers of each type instead of golding everything. The Gellhorn board is the best place to start because it lists the inland ones.",
+   "steps": [
+    "Read the Gellhorn challenge board to map the inland events.",
+    "Clear bronze or silver on each event; medals do not matter for this trophy.",
+    "Do the water and flight trials in one session so the controls stay fresh.",
+    "Cross off the timed trials last, when you know the streets well.",
+    "Watch the challenge counter in the stats menu reach 50."
+   ],
+   "tips": [
+    "Each event counts once, so do not repeat the same time trial.",
+    "Finishing a challenge instantly respawns you at the start - handy for retries."
+   ]
   },
   {
    "id": 33,
    "name": "Hot Together",
    "description": "Lose a 4 star Wanted Level with your partner and escape the heat.",
    "grade": "bronze",
-   "guide": "Lose a 4-star wanted level with your partner."
+   "hidden": false,
+   "order": 40,
+   "category": "online",
+   "act": "Any time",
+   "region": "Vice City",
+   "landmark": "Keys causeway toll booths (escape route)",
+   "time": "20 min",
+   "difficulty": 3,
+   "missable": true,
+   "missableNote": "Do this in Chapter 3 or 4 free roam, while your partner is available to travel with you - after the campaign they are harder to bring along.",
+   "prereqs": [
+    "Partner available in free roam",
+    "A fast car with armour"
+   ],
+   "collectibles": "",
+   "guide": "Lose a 4-star wanted level with your partner.",
+   "overview": "You need both protagonists in the same car, a four-star rating and a clean escape - the partner has to be in the vehicle when the rating clears. The causeway is the best escape route because it has no side streets for the pursuit to cut you off. Drive out to the Keys, break line of sight, then switch cars in the mangroves.",
+   "steps": [
+    "Bring your partner along and drive out to the airport approach road.",
+    "Build the rating to four stars by firing near police, not at them.",
+    "Run south over the causeway and keep the speed up through the tolls.",
+    "Break line of sight in the tunnel, then turn off into the side road.",
+    "Park in the mangrove track and wait with your partner until the rating clears."
+   ],
+   "tips": [
+    "Staying in the car is the whole trick - a single exit can reset the setup.",
+    "Police helicopters keep the rating alive, so wait for the air unit to peel off."
+   ]
   },
   {
    "id": 34,
    "name": "Retail Therapy",
    "description": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.",
    "grade": "bronze",
-   "guide": "Rob 3 shops in a row with your partner, keeping your wanted level."
+   "hidden": false,
+   "order": 41,
+   "category": "activities",
+   "act": "Any time",
+   "region": "Vice City",
+   "landmark": "Little Havana corner stores",
+   "time": "25 min",
+   "difficulty": 3,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Partner available in free roam",
+    "A getaway car parked nearby"
+   ],
+   "collectibles": "",
+   "guide": "Rob 3 shops in a row with your partner, keeping your wanted level.",
+   "overview": "The trick is that the wanted level must never fully clear between the three robberies, so you cannot stop to wait it out. Little Havana has three corner stores within a few blocks, which keeps the streak alive on travel time alone. Rob them loud, in order, and drive off before the clerk triggers the alarm.",
+   "steps": [
+    "Recon the Little Havana strip and note three stores with back exits.",
+    "Park the getaway car in an alley between the second and third store.",
+    "Rob the first store, then drive immediately - the rating must stay live.",
+    "Hit the second and third stores within the rating's timer.",
+    "Shake the pursuit only after the third robbery and the trophy banner."
+   ],
+   "tips": [
+    "Do it at night, when fewer pedestrians call the police.",
+    "Shooting the alarm panel buys you fifteen extra seconds per store."
+   ]
   },
   {
    "id": 35,
    "name": "Whip It Good",
    "description": "Discover 100 vehicles.",
    "grade": "bronze",
-   "guide": "Discover 100 vehicles."
+   "hidden": false,
+   "order": 47,
+   "category": "collectibles",
+   "act": "Any time",
+   "region": "Vice City",
+   "landmark": "Downtown Vice City showroom row",
+   "time": "3 h",
+   "difficulty": 2,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Chapter 2 complete"
+   ],
+   "collectibles": "100/100 vehicles",
+   "guide": "Discover 100 vehicles.",
+   "overview": "A vehicle counts as discovered the moment you get in it, so you never need to buy or steal anything permanently. Showroom row in Downtown Vice City alone holds a dozen models, and the airport and docks hold the rest. Bring a car with a wide turning circle; you will be swapping vehicles constantly.",
+   "steps": [
+    "Walk the Downtown showroom row and sit in every display car.",
+    "Work the airport long-stay car park and the dock container yards.",
+    "Ride every bike, boat and helicopter type you pass at least once.",
+    "Check the vehicle list in the stats menu to spot the model families you are missing.",
+    "Keep swapping on the highway until the counter reads 100."
+   ],
+   "tips": [
+    "Special vehicles from missions count too, so keep the rare cars you earn.",
+    "Police and ambulance vehicles are easiest to take during a wanted chase."
+   ]
   },
   {
    "id": 36,
    "name": "Gunslinger",
    "description": "Take down 5 enemies in a single use of Combat Focus.",
    "grade": "bronze",
-   "guide": "Down 5 enemies in one Combat Focus."
+   "hidden": false,
+   "order": 27,
+   "category": "combat",
+   "act": "Any time",
+   "region": "Vice City",
+   "landmark": "Vice City mall atrium",
+   "time": "15 min",
+   "difficulty": 2,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Combat Focus unlocked",
+    "A pistol with a large magazine"
+   ],
+   "collectibles": "",
+   "guide": "Down 5 enemies in one Combat Focus.",
+   "overview": "Combat Focus drains in real time, so the five kills have to come from one dense group rather than a spread-out fight. The mall atrium and the Gellhorn arcade both have patrols of five or more who bunch up at the escalators. Start the focus from behind cover so you do not lose the first second to incoming fire.",
+   "steps": [
+    "Pick a location with five or more guards in one room, like the mall atrium.",
+    "Trigger the fight from cover so they all run the same way.",
+    "Wait until three are in frame, then start Combat Focus.",
+    "Aim for heads - a body shot costs you a second of focus per kill.",
+    "Let the focus expire after the fifth kill and confirm the trophy."
+   ],
+   "tips": [
+    "Upgrade the focus duration before attempting; two extra seconds is a whole kill.",
+    "Do not use a shotgun - the spread wastes focus on downed enemies."
+   ]
   },
   {
    "id": 37,
    "name": "Catch Me If You Can",
    "description": "Make an unscheduled departure at VCIA.",
    "grade": "bronze",
-   "guide": "Leave VCIA in an unscheduled way."
+   "hidden": false,
+   "order": 35,
+   "category": "exploration",
+   "act": "Any time",
+   "region": "Vice City",
+   "landmark": "VCIA runway 9 threshold",
+   "time": "20 min",
+   "difficulty": 2,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Hi-Jacked",
+    "A plane or helicopter"
+   ],
+   "collectibles": "",
+   "guide": "Leave VCIA in an unscheduled way.",
+   "overview": "Any aircraft will do, but the runway has to be live: the airport closes the gates when no flight is inbound, and the trophy will not fire. Steal a plane from the cargo apron while a landing aircraft is on approach, then take off against the flow of traffic. Expect a wanted level on the way out, so climb hard and head south over the water.",
+   "steps": [
+    "Wait at the perimeter fence until an inbound flight appears on the map.",
+    "Slip through the staff gate and take any apron aircraft.",
+    "Line up on the same runway as the incoming flight and take off toward it.",
+    "Climb immediately to clear the terminal buildings.",
+    "Head out over the coast until the wanted level clears."
+   ],
+   "tips": [
+    "Helicopters work too - lifting off from the apron counts as the departure.",
+    "If the runway is closed, sleep in a safehouse and come back the next day."
+   ]
   },
   {
    "id": 38,
    "name": "Challenging Tank",
    "description": "Kinda hot in these Rhinos.",
    "grade": "bronze",
-   "guide": "Deal with Rhinos (tanks)."
+   "hidden": true,
+   "order": 36,
+   "category": "combat",
+   "act": "Any time",
+   "region": "Mount Kalaga",
+   "landmark": "Kalaga military checkpoint",
+   "time": "20 min",
+   "difficulty": 3,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Four-star wanted level reachable",
+    "Sticky explosives"
+   ],
+   "collectibles": "",
+   "guide": "Deal with Rhinos (tanks).",
+   "overview": "The Rhino is the armoured personnel carrier the army sends once you hold a four-star rating, and the hidden trophy wants you to steal one rather than destroy it. Build the rating at the Kalaga checkpoint, let the APC arrive, then take it while the crew is dismounted. Driving it anywhere with the rating live is the confirmation.",
+   "steps": [
+    "Build a four-star rating at the Kalaga checkpoint and hold position.",
+    "Wait for the APC to arrive and let the crew dismount to engage you.",
+    "Kill the crew rather than the vehicle so the hull stays drivable.",
+    "Climb in and drive through the checkpoint barrier.",
+    "Keep the rating alive for thirty seconds to confirm the trophy."
+   ],
+   "tips": [
+    "Shooting the APC with explosives destroys it - use small arms on the crew only.",
+    "The tank is slow; head downhill and let gravity help you escape."
+   ]
   },
   {
    "id": 39,
    "name": "Sneakthief",
    "description": "Rob a jewelry store without being detected.",
    "grade": "bronze",
-   "guide": "Rob a jewelry store without being seen."
+   "hidden": false,
+   "order": 37,
+   "category": "activities",
+   "act": "Any time",
+   "region": "Vice City",
+   "landmark": "Vice Beach jewelry boutique",
+   "time": "20 min",
+   "difficulty": 3,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Chapter 2 complete",
+    "A silenced pistol"
+   ],
+   "collectibles": "",
+   "guide": "Rob a jewelry store without being seen.",
+   "overview": "Jewelry stores have glass fronts, which means the customers see you before you see them, so scout through the window first. Take the staff on the floor with silenced headshots and stay behind the display cases. The alarm panel on the back wall must be disabled before you touch the safe or the run is void.",
+   "steps": [
+    "Watch the boutique through the window until the staff positions repeat.",
+    "Enter when the guard walks to the back room.",
+    "Take out the clerk and guard with silenced headshots.",
+    "Disable the alarm panel before starting on the safe.",
+    "Walk out with the bag; running makes pedestrians notice you."
+   ],
+   "tips": [
+    "One witness anywhere in the store fails the attempt, so check the window reflections.",
+    "Do it at night when the boutique has fewer shoppers on the street outside."
+   ]
   },
   {
    "id": 40,
    "name": "Maximum Withdrawal",
    "description": "Rob 5 Bank Vaults and escape.",
    "grade": "silver",
-   "guide": "Rob 5 bank vaults and escape (silver)."
+   "hidden": false,
+   "order": 39,
+   "category": "activities",
+   "act": "Any time",
+   "region": "Vice City",
+   "landmark": "Downtown Vice City bank row",
+   "time": "50 min",
+   "difficulty": 4,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Chapter 3 complete",
+    "Drill and thermal charge unlocked"
+   ],
+   "collectibles": "5/5 bank vaults",
+   "guide": "Rob 5 bank vaults and escape (silver).",
+   "overview": "Five vaults means five separate escapes, and each one is harder than the last as the surrounding districts raise their patrols. Downtown Vice City has three vaults within a few blocks, so do those in one session with a getaway car parked between them. The vault drill is the slow part; buy the thermal charge upgrade to skip it.",
+   "steps": [
+    "Unlock the thermal charge so the vault door takes seconds instead of minutes.",
+    "Do the three Downtown vaults in one run, with a car at each back exit.",
+    "Use the metro tunnels to break the pursuit between robberies.",
+    "Leave the Port Gellhorn and Keys vaults until the city has calmed down.",
+    "Confirm all five are ticked on the map before submitting the final escape."
+   ],
+   "tips": [
+    "Robbing a vault loudly still counts, so speed beats stealth here.",
+    "Change your car after each job - police track the plate you used."
+   ]
   },
   {
    "id": 41,
    "name": "A Classic Blitz Play",
    "description": "Rob an Armored Truck and escape.",
    "grade": "bronze",
-   "guide": "Rob an armored truck and escape."
+   "hidden": false,
+   "order": 38,
+   "category": "activities",
+   "act": "Any time",
+   "region": "Port Gellhorn",
+   "landmark": "Gellhorn freeway overpass",
+   "time": "20 min",
+   "difficulty": 3,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Chapter 2 complete",
+    "Sticky explosives or a heavy weapon"
+   ],
+   "collectibles": "",
+   "guide": "Rob an armored truck and escape.",
+   "overview": "Armored trucks spawn on fixed delivery routes and only stop when a roadblock forces them to, so the overpass is the best ambush point. Block the road with two stolen cars and hit the truck as it slows. The guards call it in immediately, so have your escape car facing back down the ramp.",
+   "steps": [
+    "Wait on the overpass for the truck to appear on the freeway below.",
+    "Block the exit ramp with two parked cars before engaging.",
+    "Disable the truck with a sticky charge near the rear doors.",
+    "Deal with the two escorts and take the bags.",
+    "Leave down the ramp in a car parked facing the exit."
+   ],
+   "tips": [
+    "Trucks keep a set route, so a failed attempt repeats on the same stretch.",
+    "Do not blow the rear doors if you want the full payout - the bags burn."
+   ]
   },
   {
    "id": 42,
    "name": "The Goodtime State",
    "description": "Explore all of Leonida.",
    "grade": "bronze",
-   "guide": "Explore all 52 areas of Leonida."
+   "hidden": false,
+   "order": 46,
+   "category": "exploration",
+   "act": "Any time",
+   "region": "Ambrosia",
+   "landmark": "Ambrosia county line viewpoint",
+   "time": "3 h",
+   "difficulty": 1,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Chapter 2 complete",
+    "A fast vehicle"
+   ],
+   "collectibles": "52/52 areas",
+   "guide": "Explore all 52 areas of Leonida.",
+   "overview": "Each of the 52 named areas ticks off the moment you drive into it, so the whole trophy is a road trip. Doing it in one pass region by region is faster than cleaning up stragglers afterwards. The two offshore cays need a boat, so rent one at the Keys marina before you start.",
+   "steps": [
+    "Open the map and count how many area names are still greyed out.",
+    "Plan a loop that covers one county per session, starting in the Keys.",
+    "Enter every area by road where possible; the mark only counts on approach.",
+    "Rent a boat for the two offshore cays east of the Keys.",
+    "Recheck the map after each loop; greyed names are the ones you missed."
+   ],
+   "tips": [
+    "Flying over an area counts, so a helicopter makes the last few much faster.",
+    "Some areas only trigger from the main road, not from the dirt tracks behind them."
+   ]
   },
   {
    "id": 43,
    "name": "Pest Control",
    "description": "Rob an Illegal Operation belonging to each gang.",
    "grade": "bronze",
-   "guide": "Rob one illegal operation of each of the 9 gangs."
+   "hidden": false,
+   "order": 42,
+   "category": "activities",
+   "act": "Any time",
+   "region": "Ambrosia",
+   "landmark": "Ambrosia gang stash house",
+   "time": "50 min",
+   "difficulty": 3,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Chapter 3 complete",
+    "Operations revealed on the map"
+   ],
+   "collectibles": "9/9 gangs",
+   "guide": "Rob one illegal operation of each of the 9 gangs.",
+   "overview": "Illegal operations are the gang stash houses, chop shops and grow sites that unlock after you meet each gang through the side strands. They are marked with a skull icon and each one is a short fight followed by a loot sweep. Nine gangs means nine different icons, so filter the map and work down the list.",
+   "steps": [
+    "Finish the gang-related side strands so all nine operations appear.",
+    "Filter the map for skull icons and note the gang name on each.",
+    "Clear the smallest stash houses first; the grow sites have the most guards.",
+    "Take the loot from the back room - that is what marks the operation robbed.",
+    "Check the nine entries in the activity list until every gang is ticked."
+   ],
+   "tips": [
+    "Raiding an operation in daylight means fewer guards on the perimeter.",
+    "If you raid a gang twice it still counts once, so no need to revisit."
+   ]
   },
   {
    "id": 44,
    "name": "In The Beginning…",
    "description": "Enjoy a cocktail with a view on Ocean Beach.",
    "grade": "bronze",
-   "guide": "Have a cocktail with a view on Ocean Beach."
+   "hidden": true,
+   "order": 28,
+   "category": "side",
+   "act": "Chapter 1",
+   "region": "Vice City",
+   "landmark": "Ocean Beach rooftop bar",
+   "time": "10 min",
+   "difficulty": 1,
+   "missable": true,
+   "missableNote": "Buy the drink during Chapter 1, while the Ocean Beach rooftop bar is open to you - the terrace is closed off once Chapter 2 starts.",
+   "prereqs": [
+    "Chapter 1 started"
+   ],
+   "collectibles": "",
+   "guide": "Have a cocktail with a view on Ocean Beach.",
+   "overview": "The rooftop bar on Ocean Beach serves drinks only while the first chapter is running, and the trophy fires when you finish the cocktail at the railing. Order anything from the bar menu and stand at the sea-facing rail until the animation ends. It takes two minutes and it is easy to miss, so do it the first time you pass.",
+   "steps": [
+    "Walk into the Ocean Beach rooftop bar during Chapter 1.",
+    "Order any cocktail from the bartender.",
+    "Carry the drink to the railing facing the sea.",
+    "Hold the button to sip until the glass is empty.",
+    "Wait for the trophy banner before leaving the terrace."
+   ],
+   "tips": [
+    "The bar closes at dawn, so go in the evening if the door is locked.",
+    "You cannot order while wanted, so clear the police first."
+   ]
   },
   {
    "id": 45,
    "name": "Capital Offense",
    "description": "Smash your way out of a vehicle showroom in classic style.",
    "grade": "bronze",
-   "guide": "Smash out of a vehicle showroom in style."
+   "hidden": true,
+   "order": 30,
+   "category": "side",
+   "act": "Any time",
+   "region": "Vice City",
+   "landmark": "Ocean Drive showroom, Vice Beach",
+   "time": "15 min",
+   "difficulty": 1,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Chapter 1 complete"
+   ],
+   "collectibles": "",
+   "guide": "Smash out of a vehicle showroom in style.",
+   "overview": "The showroom on Ocean Drive has a full glass front, and the trophy wants you to drive a display car straight through it. Reverse up, build a little speed and take the corner panel rather than the centre, which is reinforced. Any showroom car works, so pick the most expensive one you can see.",
+   "steps": [
+    "Walk into the Ocean Drive showroom and pick a display car.",
+    "Break the side window to get in without tripping the alarm first.",
+    "Reverse to the back of the showroom to build a short run-up.",
+    "Drive through the corner panel, not the reinforced centre glass.",
+    "Keep driving until the alarm clears to bank the trophy."
+   ],
+   "tips": [
+    "A fast car makes the glass break cleanly; a slow one just bounces.",
+    "The staff will chase you, but a lap of the block loses them."
+   ]
   },
   {
    "id": 46,
    "name": "Let’s Go Bowling",
    "description": "Follow-through at the Kolt & Associates' bowling alley.",
    "grade": "bronze",
-   "guide": "Play bowling at the Kolt & Associates alley."
+   "hidden": false,
+   "order": 20,
+   "category": "minigames",
+   "act": "Any time",
+   "region": "Vice City",
+   "landmark": "Kolt & Associates bowling alley, Vice Beach",
+   "time": "20 min",
+   "difficulty": 2,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Chapter 1 complete"
+   ],
+   "collectibles": "",
+   "guide": "Play bowling at the Kolt & Associates alley.",
+   "overview": "The trophy wants a full game finished at the Vice Beach alley, and the follow-through on the throw is what registers the frame. The lane drifts to the right after three frames, so aim half a board left as the oil pattern breaks down. You can bring a friend or play solo - either counts.",
+   "steps": [
+    "Enter the Kolt & Associates alley and rent a lane.",
+    "Use the power gauge to stop just past halfway for a straight first throw.",
+    "Adjust your aim a board left as the frames go on; the oil carries right.",
+    "Convert your spares rather than chasing strikes.",
+    "Bowl all ten frames through to the scoreboard for the trophy."
+   ],
+   "tips": [
+    "The heavier ball suits the front lanes, the lighter one the back four.",
+    "Quitting between frames voids the game, so finish the whole set."
+   ]
   },
   {
    "id": 47,
    "name": "Personal Best",
    "description": "A partnership with mass appeal.",
    "grade": "bronze",
-   "guide": "A partnership moment with mass appeal."
+   "hidden": true,
+   "order": 31,
+   "category": "online",
+   "act": "Chapter 2",
+   "region": "Vice City",
+   "landmark": "Partnership billboard, Vice Beach",
+   "time": "15 min",
+   "difficulty": 1,
+   "missable": true,
+   "missableNote": "Call in and take the photo while the partnership storyline is running in Chapters 2 to 4; the billboard campaign ends with the story.",
+   "prereqs": [
+    "Chapter 2 started"
+   ],
+   "collectibles": "",
+   "guide": "A partnership moment with mass appeal.",
+   "overview": "The city is running a billboard campaign about you and your partner, and the trophy wants you photographed in front of the big one on Vice Beach. Take the money shot the moment the sign lights up at night. It only runs during the middle chapters, so it is a genuine miss if you ignore it.",
+   "steps": [
+    "Wait until the beachfront billboards light up after dark.",
+    "Stand under the partnership sign on Vice Beach with your partner.",
+    "Open the phone camera and frame both of you plus the sign.",
+    "Post the photo to WAiNK It rather than saving it locally.",
+    "Wait for the banner, then check the trophy unlocked before driving off."
+   ],
+   "tips": [
+    "Both protagonists need to be in frame; a solo shot does not count.",
+    "Rainy nights give better contrast and the sign reads clearly in the photo."
+   ]
   },
   {
    "id": 48,
    "name": "Actions Speak Louder",
    "description": "Choices made (for better or worse).",
    "grade": "bronze",
-   "guide": "Make choices (PSN tracks a count to 500)."
+   "hidden": true,
+   "order": 32,
+   "category": "story",
+   "act": "Any time",
+   "region": "Vice City",
+   "landmark": "Downtown branch office, Vice City",
+   "time": "20 min",
+   "difficulty": 2,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Chapter 2 complete"
+   ],
+   "collectibles": "",
+   "guide": "Make choices (PSN tracks a count to 500).",
+   "overview": "This one tracks the branch decisions you make in odd jobs - who gets paid, who gets left behind, which version of a story you tell. The counter sits at 500 decisions, so it fills from ordinary missions rather than a single task. Pick a side deliberately in every encounter and it will come naturally.",
+   "steps": [
+    "Finish the branch office errands so the decision prompts start appearing.",
+    "Always take a side in dialogue instead of letting the timer run out.",
+    "Mix loud and quiet approaches so both decision pools fill.",
+    "Repeat the repeatable odd jobs, which are the fastest source of choices.",
+    "Check the stats menu until the decision counter reaches 500."
+   ],
+   "tips": [
+    "Letting a prompt time out does not count as a choice.",
+    "Chapter missions you replay still add to the counter."
+   ]
   },
   {
    "id": 49,
    "name": "Bad Luck, I Guess",
    "description": "Second time's the charm.",
    "grade": "bronze",
-   "guide": "Succeed on a second try."
+   "hidden": true,
+   "order": 33,
+   "category": "activities",
+   "act": "Any time",
+   "region": "Port Gellhorn",
+   "landmark": "Gellhorn fairground strength tester",
+   "time": "15 min",
+   "difficulty": 2,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Chapter 1 complete"
+   ],
+   "collectibles": "",
+   "guide": "Succeed on a second try.",
+   "overview": "The hidden trophy wants a fairground game won on your second attempt - fail once, then win. The strength tester at the Gellhorn fairground is the easiest one to control because the swing timing is identical every round. Deliberately under-hit the first swing, then go clean on the second.",
+   "steps": [
+    "Find the strength tester at the Gellhorn fairground.",
+    "Play once and stop the meter deliberately short of the top.",
+    "Take the second swing and stop it in the top band.",
+    "Wait for the fairground prize and the trophy banner.",
+    "Do not play a third time - the trophy only checks the second attempt."
+   ],
+   "tips": [
+    "Any fairground game works, including the shooting gallery.",
+    "The stall closes at dawn, so visit in the evening if it is shuttered."
+   ]
   },
   {
    "id": 50,
    "name": "The Truth Is Out There",
    "description": "What the hell just happened?",
    "grade": "bronze",
-   "guide": "Witness something strange."
+   "hidden": true,
+   "order": 34,
+   "category": "exploration",
+   "act": "Any time",
+   "region": "Grassrivers",
+   "landmark": "Grassrivers swamp lights viewpoint",
+   "time": "30 min",
+   "difficulty": 2,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Chapter 2 complete"
+   ],
+   "collectibles": "",
+   "guide": "Witness something strange.",
+   "overview": "Deep in the Grassrivers there is a swamp clearing where strange lights appear between midnight and 3am, and the trophy fires when you watch them for a full minute. Drive rather than walk - the track floods and you will need the headlights. Bring a camera for the bonus clip if you want the WAiNK pitch nearby.",
+   "steps": [
+    "Travel to the Grassrivers clearing late at night, after midnight.",
+    "Park facing the water and switch off the engine and lights.",
+    "Wait in the clearing until the lights appear above the treeline.",
+    "Watch for a full minute without driving off or firing a weapon.",
+    "Leave only after the trophy banner appears."
+   ],
+   "tips": [
+    "The event only triggers once; if nothing happens, sleep and try another night.",
+    "Random encounters nearby can cancel the script, so clear the area first."
+   ]
   },
   {
    "id": 51,
    "name": "Ten Pin",
    "description": "Bowl 'em over with a melee drive-by.",
    "grade": "bronze",
-   "guide": "Knock someone down with a melee drive-by."
+   "hidden": true,
+   "order": 29,
+   "category": "combat",
+   "act": "Any time",
+   "region": "Vice City",
+   "landmark": "Vice Beach boardwalk promenade",
+   "time": "10 min",
+   "difficulty": 1,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "A motorbike",
+    "A melee weapon"
+   ],
+   "collectibles": "",
+   "guide": "Knock someone down with a melee drive-by.",
+   "overview": "Swing a bat or a wrench from the saddle of a moving bike and connect with a pedestrian, and the trophy pops on the hit. The Vice Beach boardwalk is the safest spot because it is crowded and there is nowhere for police to box you in. Do it slowly - a crash before the swing wastes the setup.",
+   "steps": [
+    "Take a motorbike and a melee weapon to the Vice Beach boardwalk.",
+    "Ride slowly alongside a pedestrian rather than charging them.",
+    "Tap the attack button as you draw level to swing from the saddle.",
+    "Keep rolling - stopping makes the crowd scatter.",
+    "Leave the district once the banner appears."
+   ],
+   "tips": [
+    "The trophy fires on the hit, not the knockout, so a glancing blow works.",
+    "Do it while wanted by nothing; a live pursuit makes pedestrians flee early."
+   ]
   },
   {
    "id": 52,
    "name": "Dime on the Dollar",
    "description": "Earn $250,000 laundering Marked Bills through your contacts.",
    "grade": "bronze",
-   "guide": "Launder $250,000 of marked bills."
+   "hidden": false,
+   "order": 50,
+   "category": "activities",
+   "act": "Any time",
+   "region": "Vice City",
+   "landmark": "Little Havana front counter, Vice City",
+   "time": "2 h",
+   "difficulty": 3,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Chapter 3 complete",
+    "Marked bills from robberies"
+   ],
+   "collectibles": "",
+   "guide": "Launder $250,000 of marked bills.",
+   "overview": "Marked bills come from the bank and armored truck jobs, and your contact takes a cut for cleaning them. You need a quarter of a million cleaned, which means several robbery runs plus a few repeatable jobs. Sell the bills in batches - holding too many at once raises your wanted exposure.",
+   "steps": [
+    "Rob banks and armored trucks until you are carrying six figures in marked bills.",
+    "Deliver the bills to your Little Havana contact in one visit.",
+    "Repeat the repeatable laundering job while the payout rate is boosted.",
+    "Do the next robbery run before the marked bills go stale or get seized.",
+    "Track the cleaned total in the finance app until it passes $250,000."
+   ],
+   "tips": [
+    "Getting arrested loses the bills you are carrying, so bank them quickly.",
+    "Laundering during a property boost event is twice as fast."
+   ]
   },
   {
    "id": 53,
    "name": "Treat Yo Self",
    "description": "Spend $100,000 across all shops.",
    "grade": "bronze",
-   "guide": "Spend $100,000 in shops."
+   "hidden": false,
+   "order": 51,
+   "category": "activities",
+   "act": "Any time",
+   "region": "Vice City",
+   "landmark": "Vice Beach shopping boulevard",
+   "time": "1 h",
+   "difficulty": 1,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Chapter 2 complete",
+    "$100,000 in clean cash"
+   ],
+   "collectibles": "",
+   "guide": "Spend $100,000 in shops.",
+   "overview": "Every purchase in a shop counts, from clothing and haircuts to weapons and car upgrades, so this fills up as you play normally. The Vice Beach boulevard has the densest cluster of stores if you want to knock it out in one trip. Buying a car outright is the fastest single contribution.",
+   "steps": [
+    "Save up clean cash from missions and property income.",
+    "Spend it down the Vice Beach boulevard: clothes, barber, tattooist.",
+    "Buy weapon and armour stock from the gun store - it counts as shopping.",
+    "Finish with a vehicle purchase or a full upgrade at the garage.",
+    "Check the spend counter in the stats menu until it passes $100,000."
+   ],
+   "tips": [
+    "Ammo bought in bulk counts, so top up everything at once.",
+    "Property and business purchases do not count toward the total."
+   ]
   },
   {
    "id": 54,
    "name": "Little Boxes",
    "description": "Purchase all garage properties.",
    "grade": "bronze",
-   "guide": "Buy all 8 garage properties."
+   "hidden": false,
+   "order": 52,
+   "category": "activities",
+   "act": "Any time",
+   "region": "Ambrosia",
+   "landmark": "Ambrosia lock-up garages",
+   "time": "1 h",
+   "difficulty": 2,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Chapter 3 complete",
+    "Enough cash for eight properties"
+   ],
+   "collectibles": "8/8 garages",
+   "guide": "Buy all 8 garage properties.",
+   "overview": "The eight garages are cheap individually but add up, and two of them only appear on the property app after you have driven past them. Buying a garage gives you a free respawn point and storage, so they double as fast travel. Ambrosia and Port Gellhorn hold the cheapest ones - buy those first.",
+   "steps": [
+    "Open the property app and note every garage listing currently for sale.",
+    "Buy the Ambrosia and Port Gellhorn lock-ups first; they are the cheapest.",
+    "Drive past the two hidden Vice City garages to make them appear on the app.",
+    "Buy the remaining city garages once your balance recovers.",
+    "Check the app's owned list until all eight are ticked."
+   ],
+   "tips": [
+    "Property purchases are permanent, so a fully bought map stays bought.",
+    "Garage ownership counts toward 100% completion, so it is never wasted money."
+   ]
   },
   {
    "id": 55,
    "name": "On the Spot",
    "description": "Register 10 vehicles to the Scooter Bros app.",
    "grade": "bronze",
-   "guide": "Register 10 vehicles in the Scooter Bros app."
+   "hidden": true,
+   "order": 53,
+   "category": "activities",
+   "act": "Any time",
+   "region": "Port Gellhorn",
+   "landmark": "Scooter Bros depot, Gellhorn pier",
+   "time": "30 min",
+   "difficulty": 2,
+   "missable": false,
+   "missableNote": "",
+   "prereqs": [
+    "Chapter 2 complete",
+    "Scooter Bros app installed"
+   ],
+   "collectibles": "10/10 vehicles registered",
+   "guide": "Register 10 vehicles in the Scooter Bros app.",
+   "overview": "Scooter Bros is a delivery app that wants you to sign up vans and scooters as the fleet's vehicles, and any vehicle type it lists counts once. The Gellhorn depot is the hub, but you register from the app's scanner while sitting in the vehicle. Register the ten easy ones rather than the ones that need a trip outside the city.",
+   "steps": [
+    "Open the Scooter Bros app and read the list of accepted vehicle types.",
+    "Drive to the Gellhorn depot and register the van parked there.",
+    "Register scooters and mopeds from the pier and the beachfront ranks.",
+    "Scan the larger delivery truck at the docks to widen the fleet.",
+    "Watch the app's roster until ten vehicles are registered."
+   ],
+   "tips": [
+    "The same model registered twice does not count, so vary the vehicles.",
+    "Registrations survive a reload, so you can spread this over several sessions."
+   ]
   }
  ]
 }

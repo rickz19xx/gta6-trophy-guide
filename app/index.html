@@ -3,23 +3,79 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GTA VI trophy checklist</title>
+<meta name="color-scheme" content="dark">
+<title>GTA VI trophy guide</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-  <h1>GTA VI trophy checklist</h1>
-  <p id="progress">0 of 55 earned</p>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="logo" aria-hidden="true">VI</span>
+    <div class="brand-text">
+      <h1 id="game-name">GTA VI trophy guide</h1>
+      <p class="brand-sub" id="platform-line">Loading&hellip;</p>
+    </div>
+  </div>
+
+  <div class="progress">
+    <div class="progress-head">
+      <span class="progress-title">Platinum progress</span>
+      <span class="progress-pct" id="progress-pct">0%</span>
+    </div>
+    <div class="progress-bar" id="progress-bar" role="progressbar" aria-label="Platinum progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+      <span class="progress-fill" id="progress-fill"></span>
+    </div>
+    <p class="progress-meta" id="progress-meta">0 of 0 earned</p>
+  </div>
+
+  <nav class="toolbar" aria-label="Views and progress files">
+    <a class="btn" id="nav-list" href="#/">All trophies</a>
+    <a class="btn" id="nav-roadmap" href="#/roadmap">Roadmap</a>
+    <button class="btn" id="export-btn" type="button">Export</button>
+    <label class="btn" for="import-input">Import</label>
+    <input class="sr-only" id="import-input" type="file" accept="application/json,.json">
+    <button class="btn danger" id="reset-btn" type="button">Reset</button>
+  </nav>
 </header>
-<div class="controls">
-  <label>Grade <select id="grade"><option value="all">All</option><option value="platinum">Platinum</option><option value="gold">Gold</option><option value="silver">Silver</option><option value="bronze">Bronze</option></select></label>
-  <button id="export" type="button">Export progress</button>
-  <label class="import">Import progress <input id="import" type="file" accept="application/json"></label>
-</div>
-<table>
-  <thead><tr><th>Earned</th><th>Trophy</th><th>Grade</th><th>How to get it</th></tr></thead>
-  <tbody id="rows"></tbody>
-</table>
+
+<main class="layout">
+
+  <aside class="pane pane-list" aria-label="Trophy list">
+    <div class="controls">
+      <div class="search">
+        <input class="search-input" id="search" type="search" placeholder="Search name, description, region, landmark, overview" autocomplete="off" spellcheck="false" aria-label="Search trophies">
+        <kbd class="search-key">/</kbd>
+      </div>
+
+      <div class="chip-row" id="grade-chips" role="group" aria-label="Filter by grade"></div>
+      <div class="chip-row" id="category-chips" role="group" aria-label="Filter by category"></div>
+      <div class="chip-row" id="toggle-chips" role="group" aria-label="More filters"></div>
+
+      <div class="sort-row">
+        <label for="sort">Sort</label>
+        <select id="sort">
+          <option value="order">Guide order</option>
+          <option value="name">Name (A&ndash;Z)</option>
+          <option value="difficulty">Difficulty (hardest first)</option>
+          <option value="time">Time (longest first)</option>
+        </select>
+      </div>
+
+      <div class="counters" id="counters"></div>
+    </div>
+
+    <div class="list-scroll">
+      <div class="list-head" id="list-head"></div>
+      <ul class="list" id="list"></ul>
+      <p class="empty" id="empty" hidden>No trophy matches these filters.</p>
+    </div>
+  </aside>
+
+  <section class="pane pane-detail" id="pane-detail" tabindex="-1" aria-label="Trophy details"></section>
+
+</main>
+
 <script type="module" src="app.js"></script>
 </body>
 </html>

@@ -14,7 +14,7 @@
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 
-import { cpSync, existsSync, mkdirSync, writeFileSync } from 'node:fs';
+import { cpSync, existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { buildDossier } from './vendor/makefun-frontend.ts';
@@ -34,3 +34,6 @@ writeFileSync(
   join(out, 'dossier.json'),
   buildDossier(out, { text_max_bytes: 163840, screenshots: { max: 4, max_bytes: 262144 }, app_max_files: 993, app_max_bytes: 50331648 }),
 );
+
+// What was handed in: the trophies the copied app/ carries and the screenshots copied beside it.
+console.error(`handed in ${JSON.parse(readFileSync(join(out, 'app/data/trophies.json'), 'utf8')).trophies.length} trophies and ${readdirSync(join(out, 'screenshots')).filter((name: string) => /\.(?:png|jpe?g)$/i.test(name)).length} screenshots`);
