@@ -1,3 +1,4 @@
+// provenance: recorded build 2026-11-21
 const KEY = 'leonida-ledger/v1';
 const GR = { platinum: 'P', gold: 'G', silver: 'S', bronze: 'B' };
 const PAGES = ['tracker', 'roadmap', 'about'];

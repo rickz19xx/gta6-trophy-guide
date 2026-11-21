@@ -61,3 +61,4 @@ node --experimental-strip-types main.ts        # writes /output (MAKEFUN_OUTPUT_
 
 Caps held: app text 152,004 B (< 163,840 B), first load 67 KB raw / 20 KB gzip-9,
 four screenshots at 133–153 KB each (< 256 KB), `dossier.json` written by `main.ts` alone.
+_Provenance: rebuilt under recording, 2026-11-21._
