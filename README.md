@@ -1,5 +1,9 @@
 # GTA VI trophy guide
 
+[![make.fun · gta6-trophy-guide-01](https://make.fun/badge/gta6-trophy-guide-01.svg)](https://make.fun/bounty/gta6-trophy-guide-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
+[![rank](https://make.fun/badge/gta6-trophy-guide-01/rickz19xx/gta6-trophy-guide/rank.svg)](https://make.fun/bounty/gta6-trophy-guide-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
+[![reward](https://make.fun/badge/gta6-trophy-guide-01/rickz19xx/gta6-trophy-guide/reward.svg)](https://make.fun/bounty/gta6-trophy-guide-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
+
 An offline trophy guide for GTA VI: 55 trophy write-ups (what it wants, where and how, what can
 be missed) as plain static files in `app/`, with a searchable, filterable list, a detail pane
 and a roadmap to the platinum. It loads nothing over the network — no fonts, no CDN, no build step.
@@ -10,3 +14,5 @@ so progress survives a reload; Export saves that progress as JSON and Import rea
 
 To build the hand-in, run `mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts`: it copies `app/`
 and `screenshots/` into `out/` and writes `out/dossier.json`.
+
+Bounty and leaderboard: [make.fun · gta6-trophy-guide-01](https://make.fun/bounty/gta6-trophy-guide-01).
