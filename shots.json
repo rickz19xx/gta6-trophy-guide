@@ -3,28 +3,28 @@
     "file": "1-overview.png",
     "path": "/",
     "query": "?demo=1",
-    "viewport": { "width": 1440, "height": 900 },
+    "viewport": { "width": 1280, "height": 800 },
     "note": "Cover: the trophy list with demo progress seeded at 25 of 55 (45%), grade and category chips, counters and the platinum progress bar."
   },
   {
     "file": "2-roadmap.png",
     "path": "/#/roadmap",
     "query": "?demo=1",
-    "viewport": { "width": 1440, "height": 900 },
+    "viewport": { "width": 1280, "height": 800 },
     "note": "Roadmap view: all 55 trophies in completion order, grouped by act (Prologue through Epilogue, then Any Time) with earned counts per group."
   },
   {
     "file": "3-detail.png",
     "path": "/#/t/12",
     "query": "?demo=1",
-    "viewport": { "width": 1440, "height": 900 },
+    "viewport": { "width": 1280, "height": 800 },
     "note": "Detail pane for trophy 12, Hi-Jacked (bronze, Story/Chapter 2, Vice City, 25 min): overview, prerequisites and the 5 tickable steps."
   },
   {
     "file": "4-filters.png",
     "path": "/",
     "query": "?demo=1&grade=silver&missable=1",
-    "viewport": { "width": 1440, "height": 900 },
+    "viewport": { "width": 1280, "height": 800 },
     "note": "Filters at work: Silver grade crossed with Missable only; as no silver trophy is missable the list shows its empty state (0 of 55)."
   }
 ]
